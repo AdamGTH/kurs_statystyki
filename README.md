@@ -2,7 +2,7 @@
 Tworzenie statystyk zarobków programistów z serwisu https://justjoin.it/ , poprzez pobranie danych z API, a następnie umieszczenie danych na wykresie 
 
 
-'''py
+```py
 
 import requests
 r = requests.get("https://justjoin.it/api/offers")
@@ -65,5 +65,5 @@ plt.hist(higher_salaries, bins = 50, alpha = 0.5, label = "to" )
 plt.legend(loc = "upper right")
 plt.show()
 
-'''
+```
 
